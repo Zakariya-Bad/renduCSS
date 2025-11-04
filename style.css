@@ -1,38 +1,75 @@
 li{
     display: inline;
+    padding: 10px;
 }
 #list{
     text-align: end;
+    display: inline-block;
+    float: right;
+    padding: 20PX;
 }
-header{
-  background-image: url(Assets/image-header.png);  
-}
-body{
-     font-family: "DM Sans", sans-serif;
-     color: white;
-}
-.main{
-    background-color: black;
-}
-.sponsors{
-    background-image: url(Assets/banniere-logo.png);
-}
-.dates{
-    background-color: black;
-    display: inline;
-}
-.contact{
-    background-color: black;
-}
-
 a{
     text-decoration: none;
     color: white;
 }
-
-footer{
-    background-color: black;
+nav{
+    padding: 30px;
 }
+header{
+  background-image: url(Assets/image-header.png);  
+  background-size: cover;
+}
+
+
+.container{
+    margin: auto;
+    text-align: center;
+    height: 600px; width: 600px;
+}
+h1{
+    font-size: 150px;
+    text-align: left;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+
+span{
+    font-size: 53px;
+}
+
+.adresse{
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 28px;
+     height: 80px; width: 335px;
+}
+
+body{
+     font-family: "DM Sans", sans-serif;
+     color: white;
+     background-color: black;
+}
+*{
+    margin: 0;
+}
+.bouton{
+    background-color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.second{
+    background-color: white;
+    color: black;
+    }
+
+
+
+.sponsors{
+    background-image: url(Assets/banniere-logo.png);
+}
+
 .copyright{
     color: black;
     background-color: white;
