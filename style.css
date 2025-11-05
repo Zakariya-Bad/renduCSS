@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 li{
     display: inline;
     padding: 10px;
@@ -6,7 +10,7 @@ li{
     text-align: end;
     display: inline-block;
     float: right;
-    padding: 20PX;
+    padding: 20px;
 }
 a{
     text-decoration: none;
@@ -23,12 +27,10 @@ header{
 
 .container{
     margin: auto;
-    text-align: center;
-    height: 600px; width: 600px;
+    height: 600px; width: 570px;
 }
 h1{
     font-size: 150px;
-    text-align: left;
     line-height: 100px;
     margin-bottom: 30px;
 }
@@ -38,37 +40,89 @@ span{
 }
 
 .adresse{
-    margin: auto;
     margin-bottom: 10px;
     font-size: 28px;
-     height: 80px; width: 335px;
+    height: 120px; width: 475px;
+}
+.titre{
+    text-align:left ;
 }
 
 body{
      font-family: "DM Sans", sans-serif;
      color: white;
      background-color: black;
+     background-size: cover;
 }
-*{
-    margin: 0;
-}
+
 .bouton{
     background-color: black;
     font-weight: bold;
     border-radius: 5px;
     padding: 10px;
-    margin-right: 10px;
+    
+  
 }
 .second{
     background-color: white;
     color: black;
     }
 
+.sectionPadding{
+    padding-block: 120px;
+}
+.contain{
+    max-width: 700px;
+    margin: auto;
+}
 
+.imgsection{
+    width: 100%;
+}
+
+.lineup{
+    text-align: center;
+}
+
+.dates{
+    display: block;
+     border-top: 1px dashed white ;
+}
+.lineuplist{
+    height: 375px; width: 480px;
+    text-align: left;
+    margin: auto;
+  
+}
 
 .sponsors{
     background-image: url(Assets/banniere-logo.png);
+    padding: 100px;
+    text-align: center;
+    margin: auto;
 }
+
+#mark{
+    margin-left: 20px;
+}
+
+.contact{
+    text-align: center;
+    margin: auto;
+}
+
+label{
+    display: block;
+}
+
+input{
+    background-color: grey;
+    width: 300px;
+}
+textarea{
+    background-color: grey;
+}
+
 
 .copyright{
     color: black;
